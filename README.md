@@ -12,6 +12,6 @@ You must have NPM installed to do this workshop.
 2. Multiple Entry Points and Browser Performance
 - **/multiple_entry_example** - an example modular application with multiple entry points. This application is used to show how webpack plugins can be added to improve site performance.
 3. Build performance with Webpack
-- **build_exclusion_example** - an example application that explains how to improve performance of build times with webpack
+- **/build_exclusion_example** - an example application that explains how to improve performance of build times with webpack
 4. PMC Config Q&A
-- **pmc_config** - the webpack.config.js file for PMC-CORE. We will step through this at the end of the workshop and answer any questions about how it's formatted.
+- **/pmc_config** - the webpack.config.js file for PMC-CORE. We will step through this at the end of the workshop and answer any questions about how it's formatted.
