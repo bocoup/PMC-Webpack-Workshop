@@ -1,0 +1,52 @@
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+  #featured-wrapper
+  {
+    overflow: hidden;
+    padding: 5em 0em;
+    background: #FFF;
+  }
+
+  #featured h2
+  {
+    text-align: center;
+  }
+
+  #featured .icon
+  {
+    position: relative;
+    display: block;
+    margin: 0px auto 20px auto;
+    line-height:  normal;
+    font-size: 6em;
+    text-align: center;
+    color: #3f3f3f;
+  }
+
+  .column1,
+  .column2,
+  .column3,
+  .column4
+  {
+    width: 282px;
+  }
+
+  .column1,
+  .column2
+  {
+    float: left;
+    margin-right: 24px;
+  }
+
+  .column3
+  {
+    float: left;
+  }
+
+  .column4
+  {
+    float: right;
+  }

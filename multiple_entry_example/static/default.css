@@ -1,0 +1,286 @@
+	html, body
+	{
+		height: 100%;
+	}
+
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #F6F4F3;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 12pt;
+		font-weight: 400;
+		color: #4E4D4D;
+	}
+
+
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+
+	p
+	{
+		line-height: 180%;
+	}
+
+	strong
+	{
+	}
+
+	a
+	{
+		color: #383838;
+	}
+
+	a:hover
+	{
+		text-decoration: none;
+	}
+
+	.container
+	{
+		width: 1200px;
+		margin: 0px auto;
+	}
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+	{
+		display: inline-block;
+	}
+
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 0 0;
+	}
+
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.style1
+	{
+	}
+
+
+
+
+/*********************************************************************************/
+/* Major Styles                                                                  */
+/*********************************************************************************/
+
+	.major
+	{
+		overflow: hidden;
+		margin-bottom: 4em;
+		text-align: center;
+	}
+
+	.major h2
+	{
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-size: 3em;
+		font-weight: 700;
+		color: #3f3f3f;
+	}
+
+	.major .byline
+	{
+		display: block;
+		padding-top: 0.2em;
+		font-weight: 300;
+		font-size: 2em;
+	}
+
+/*********************************************************************************/
+/* Title Styles                                                                  */
+/*********************************************************************************/
+
+	.title
+	{
+		text-align: center;
+	}
+
+	.title h2
+	{
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #3f3f3f;
+	}
+
+	.title .byline
+	{
+		display: block;
+		padding-top: 1em;
+		font-weight: 300;
+		font-size: 1.1em;
+	}
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		margin: 1em 0em;
+		padding: 1em 3em 1em 3em;
+		background: #3f3f3f;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #FFF;
+	}
+
+	.button:before
+	{
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		background: #3f3f3f;
+	}
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+	}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page
+	{
+		overflow: hidden;
+		padding: 6em 0em;
+		border-top: 1px solid #E5E5E5;
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+		float: left;
+		width: 588px;
+	}
+
+	#content .title
+	{
+		padding-bottom: 2em;
+		text-align: left;
+	}
+
+	#content h2
+	{
+		font-size: 2em;
+	}
+
+	#content .byline
+	{
+		padding-top: 0;
+		font-size: 1.5em;
+	}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+	{
+		float: right;
+		width: 588px;
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+	}
+
+	#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: #6F6F6F;
+	}
+
+	#copyright a
+	{
+		text-decoration: none;
+		color: #8C8C8C;
+	}
+

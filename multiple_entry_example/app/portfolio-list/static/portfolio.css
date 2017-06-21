@@ -1,0 +1,29 @@
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+  #portfolio-wrapper
+  {
+    padding: 6em 0em;
+  }
+
+  #portfolio
+  {
+    overflow: hidden;
+    text-align: center;
+  }
+
+  #portfolio img
+  {
+    margin: 0;
+    padding: 0;
+  }
+
+  #portfolio .box
+  {
+    padding: 30px;
+    background: #FFF;
+    border-bottom: 2px solid #7C7C7C;
+    border-right: 1px solid #DADADA;
+    border-left: 1px solid #DADADA;
+  }
