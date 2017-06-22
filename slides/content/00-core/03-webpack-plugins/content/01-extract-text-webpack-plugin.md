@@ -52,7 +52,7 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 module.exports = {
   /* ... */,
   module: {
-    loaders: [
+    rules: [
       /* ... */,
       {
         test: /\.css$/,
@@ -68,7 +68,7 @@ module.exports = {
 
 ???
 
-And we'll need to update the `loaders` and add a `plugins` property.
+And we'll need to update the `rules`
 
 ---
 
@@ -76,7 +76,7 @@ And we'll need to update the `loaders` and add a `plugins` property.
 
 ```js
 module: {
-  loaders: [
+  rules: [
     /* ... */,
     {
       test: /\.css$/,

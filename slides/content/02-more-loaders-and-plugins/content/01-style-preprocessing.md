@@ -49,7 +49,7 @@ module.exports = {
     use: [/* stylus plugins */],
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.styl$/,
         loader: 'style-loader!css-loader!stylus-loader',
@@ -125,7 +125,7 @@ module.exports = {
     return [autoprefixer];
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.styl$/,
         loader: 'style-loader!css-loader!postcss-loader!stylus-loader',

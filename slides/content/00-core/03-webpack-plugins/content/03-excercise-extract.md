@@ -53,7 +53,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var HtmlPlugin = require('html-webpack-plugin');
 // ....
 module: {
-  loaders: [
+  rules: [
     // other loaders
     {
       test: /\.css$/,

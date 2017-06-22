@@ -55,7 +55,7 @@ Or, configure your webpack config to use `script-loader` for jQuery:
 ```js
 module.exports = {
   module: {
-    loaders: [
+    rules: [
       {
         // we usually only use "test" for extensions
         test: /\.js$/,

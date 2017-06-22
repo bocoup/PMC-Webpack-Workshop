@@ -80,7 +80,7 @@ Using `ProvidePlugin` is similar to, but way better than:
 ```js
 {
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         loader: 'imports-loader?$=jquery&jQuery=jquery&window.jQuery=jquery',

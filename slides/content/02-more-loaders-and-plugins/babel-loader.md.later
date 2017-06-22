@@ -44,7 +44,7 @@ Since `babel-loader` passes its input to babel, `babel-loader` lets you determin
 module.exports = {
   // other configuration here
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -84,7 +84,7 @@ module.exports = {
 module.exports = {
   // ...
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -150,7 +150,7 @@ module.exports = {
     presets: ['es2015', 'react'],
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.jsx?$/, // Catching .js and .jsx files
         exclude: /node_modules/,
