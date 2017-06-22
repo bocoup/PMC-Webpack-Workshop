@@ -34,7 +34,8 @@ For review, loaders should do one thing!  Our `file-loader` outputs a file, and 
 
 ???
 
-We need to install `file-loader`, and define `module.loaders` in our webpack config, it is an array which will contain one loader for now.
+We need to install `file-loader`, and add a rule to the `module.rules` 
+array in our webpack config, this array will only contain one rule for now.
 
 Whenever we change webpack.config we need to restart our dev server.
 
@@ -49,14 +50,14 @@ After making these changes, clean the the dist folder up, and create a new build
 **`webpack.config.js`**
 
 ```js
-module: {
-  loaders: [
-    {
-      test: /\.(jpg|png)$/,
-      loader: 'file-loader',
-    },
-  ],
-},
+  module: {
+    rules: [
+      {
+        test: /\.(jpg|png)$/,
+        loader: 'file-loader',
+      }
+    ],
+  },
 ```
 
 **`main.js`**
@@ -76,7 +77,7 @@ var imageUrls = [
 
 ???
 
-To review the changes we made, we added `module.loaders` to our webpack config, changed the `imageUrls` to use `require`, and removed `img` from our `build` command.
+To review the changes we made, we added an item to the `module.rules` array in our webpack config, changed the `imageUrls` to use `require`, and removed `img` from our `build` command.
 
 -------
 
