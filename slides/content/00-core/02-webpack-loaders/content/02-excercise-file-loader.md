@@ -21,7 +21,7 @@ For review, loaders should do one thing!  Our `file-loader` outputs a file, and 
 ### Goals
 
 - **Install `file-loader`**
-- **Configure `module.loaders`** in webpack.config:
+- **Add a rule** to the `module.rules` array in webpack.config:
     ```js
     { test: /\.(jpg|png)$/, loader: 'file-loader' }
     ```
