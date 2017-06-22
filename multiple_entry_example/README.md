@@ -15,6 +15,12 @@
 
  Access the site at: [http://localhost:9000](http://localhost:9000)
 
+## Builds
+
+`npm run build`  builds the site as is
+
+`npm run build:perf` builds the site with the common's chunk plugin enabled to utilize browser caching
+
 
 ## The "App"
 This application exists just for the purpose of the webpack bundle analysis webcast. It was build off a free template design called TwoColors, created by [TEMPLATED](http://templated.co). It's static, full of lorem ipsum, and the original design is broken out into react components.  It's built in a way to showcase common issues that come up when working on a modular application with webpack.
