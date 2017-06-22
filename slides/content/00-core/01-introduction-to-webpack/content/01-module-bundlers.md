@@ -3,7 +3,6 @@ name: ch1-sec1
 
 # In a land before JavaScript Modules...
 
-Illustration??
 
 ???
 

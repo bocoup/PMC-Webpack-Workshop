@@ -46,9 +46,6 @@ class: center, middle
 # webpack workshop
 ## How does one pack the web?
 
-Illustration Thoughts: Someone trying to pack a www "globe" into a small box for shipping with some pictures, books and stuff
-
-???
 
 Welcome to the class!  Today we are going to learn about webpack, but before we get started, let's handle some introductions and share some important information.
 
@@ -57,33 +54,8 @@ Welcome to the class!  Today we are going to learn about webpack, but before we 
 ## Info:
 
 * Code of Conduct: [https://bocoup.com/guidelines/code-of-conduct](https://bocoup.com/guidelines/code-of-conduct)
-* Class website: [https://bocoup.github.io/webpack-workshop](https://bocoup.github.io/webpack-workshop)
-* Clone repo: [https://github.com/bocoup/webpack-workshop](https://github.com/bocoup/webpack-workshop)
-* Email us any time:
-  - [webpack-workshop@bocoup.com](mailto:webpack-workshop@bocoup.com)
-
-???
-All Bocoup events follow our Code of Conduct, Here is the quick version:
-
-Bocoup is dedicated to providing a harassment-free experience for everyone, regardless of gender, sexual orientation, disability, age, physical appearance, body size, race, or religion. We do not tolerate harassment of event participants in any form. Sexual language and imagery is not appropriate for any venue, including talks. Participants violating these rules may be sanctioned or expelled from the event without a refund at the discretion of the event organizers.
-
-We have all the slides for todays class online here (follow the link), and please e-mail us at any time if you have questions.
-
----
-
-# Introductions
-
-- Your Name
-- What do you do?
-- Who do you do it for?
-- Experience with webpack or related tools?
-- What do you hope to get out of the class?
-
-???
-
-We only have a few hours with you today but let's go around very briefly and introduce ourselves.  Starting with myself ...
-
-(go around the room!)
+* Class website: [https://github.com/bocoup/PMC-Webpack-Workshop](https://github.com/bocoup/PMC-Webpack-Workshop)
+* Clone repo: [https://github.com/bocoup/PMC-Webpack-Workshop](https://github.com/bocoup/PMC-Webpack-Workshop)
 
 ---
 

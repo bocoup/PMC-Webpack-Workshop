@@ -3,7 +3,6 @@ name: ch2-sec2
 
 # Module Problems
 
-Illustration??
 
 ???
 

@@ -3,7 +3,7 @@ name: ch1.2
 
 # Part 2. Loaders
 
-Illustration??
+
 
 ???
 In the second part we are going to talk about loaders.

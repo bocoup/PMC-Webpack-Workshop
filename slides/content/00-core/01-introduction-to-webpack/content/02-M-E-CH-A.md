@@ -2,7 +2,7 @@ class: center, middle
 name: ch1-sec2
 
 # M.E.CH.A.
-Illustration? Voltronish thing
+
 ???
 
 In webpack, there are 4 core concepts at work that when combined form the ultimate robot module bundler
