@@ -85,7 +85,7 @@ but from a production server it can be bundled into a single file.
 
 # AMD Module Syntax
 
-- One of to write a JavaScript _module_
+- One of the ways to write a JavaScript _module_
 
 ???
 
