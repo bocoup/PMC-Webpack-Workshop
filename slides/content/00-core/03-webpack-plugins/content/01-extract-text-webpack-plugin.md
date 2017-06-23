@@ -56,7 +56,10 @@ module.exports = {
       /* ... */,
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract("style-loader", "css-loader"),
+        use: ExtractTextPlugin.extract({
+          fallback: "style-loader",
+          use: "css-loader"
+        }),
       },
     ],
   },
@@ -80,7 +83,10 @@ module: {
     /* ... */,
     {
       test: /\.css$/,
-      loader: ExtractTextPlugin.extract("style-loader", "css-loader"),
+      use: ExtractTextPlugin.extract({
+        fallback: "style-loader",
+        use: "css-loader"
+      }),
     },
   ],
 },
@@ -89,7 +95,10 @@ module: {
 ### `ExtractTextPlugin.extract` Arguments
 
 ```js
-ExtractTextPlugin.extract("style-loader", "css-loader")
+ExtractTextPlugin.extract({
+  fallback: "style-loader",
+  use: "css-loader"
+})
 ```
 
 * The first argument is a _fallback loader_, which gets used if the extraction fails
@@ -99,11 +108,11 @@ ExtractTextPlugin.extract("style-loader", "css-loader")
 
 We need to change the loader for our `.css` files to be marked by the ExtractTextPlugin, and we need to add a new key to the config called `plugins` which will hold an instance of the `ExtractTextPlugin`
 
-In this example, we call `ExtractTextPlugin.extract` with 2 arguments.
+In this example, we call `ExtractTextPlugin.extract` with a configuration object containing properly set `fallback` and `use` properties.
 
-The first one is a fallback loader, it will be used when the css text is not extracted, which is an option we will be describing in further detail in another Chapter.
+`fallback` specifies the loader, that should be used when the css text is not extracted, which is an option we will be describing in further detail in another Chapter.
 
-The second argument is the loader that will be used by the plugin to extract its result.
+The `use` property is the loader that will be used by the plugin to extract its result.
 
 ---
 
