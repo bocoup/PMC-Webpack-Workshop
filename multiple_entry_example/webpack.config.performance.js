@@ -4,7 +4,6 @@
 var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-var OfflinePlugin = require('offline-plugin');
 
 // Main webpack config
 module.exports = {
